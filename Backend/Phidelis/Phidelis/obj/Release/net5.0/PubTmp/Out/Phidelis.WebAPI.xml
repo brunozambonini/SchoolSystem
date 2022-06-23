@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Phidelis.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Phidelis.WebAPI.Controllers.AlunosController.GetAll">
+            <summary>
+            Retorna todos lista de todos alunos, sem filtro
+            </summary>
+            <returns>Retorna lista de alunos</returns>
+            <response code="200">Retorna lista de alunos</response>
+        </member>
+        <member name="M:Phidelis.WebAPI.Controllers.AlunosController.GetAllFiltering(System.String)">
+            <summary>
+            Retornar lista de aluno filtrando pelo nome
+            </summary>
+            <returns>Retorna lista de alunos</returns>
+            <response code="200">Retorna lista de alunos</response>
+            <param filter="termo usado para filtrar"></param>
+        </member>
+        <member name="M:Phidelis.WebAPI.Controllers.AlunosController.Post(Application.Models.Alunos)">
+            <summary>
+            Cria um novo aluno
+            </summary>
+            <returns></returns>
+            <response code="200"></response>
+            <param model="Objeto aluno (Id, Nome, CPF, Matricula)"></param>
+        </member>
+        <member name="M:Phidelis.WebAPI.Controllers.AlunosController.Put(Application.Models.Alunos)">
+            <summary>
+            Edita os dados do aluno ao passar o objeto do Aluno pelo Body
+            </summary>
+            <returns></returns>
+            <response code="200"></response>
+            <param model="Objeto aluno (Id, Nome, CPF, Matricula)"></param>
+        </member>
+        <member name="M:Phidelis.WebAPI.Controllers.AlunosController.Delete(System.Int64)">
+            <summary>
+            Remove um aluno ao passar o ID
+            </summary>
+            <returns></returns>
+            <response code="200"></response>
+            <param id="id do aluno"></param>
+        </member>
+        <member name="M:Phidelis.WebAPI.Controllers.AlunosController.ResetDataBase">
+            <summary>
+            Remove todos os alunos matriculados
+            </summary>
+            <returns></returns>
+            <response code="200"></response>
+        </member>
+        <member name="M:Phidelis.WebAPI.Controllers.AlunosController.Post(System.Int32)">
+            <summary>
+            Gera aluno com nome, cpf e matrícula aletório. Informar quantidade de alunos a serem gerados.
+            </summary>
+            <returns></returns>
+            <response code="200"></response>
+            <param quantity="quantidade de alunos a serem gerados"></param>
+        </member>
+    </members>
+</doc>

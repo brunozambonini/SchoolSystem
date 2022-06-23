@@ -1,0 +1,35 @@
+C:\Users\bruno\Source\Repos\Phidelis\Application\bin\Debug\net5.0\Application.deps.json
+C:\Users\bruno\Source\Repos\Phidelis\Application\bin\Debug\net5.0\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Application\bin\Debug\net5.0\ref\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Application\bin\Debug\net5.0\Application.pdb
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\ref\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\Application.pdb
+C:\Users\bruno\Source\Repos\Phidelis\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\bin\Debug\net5.0\Application.deps.json
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\bin\Debug\net5.0\Application.dll
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\bin\Debug\net5.0\ref\Application.dll
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\bin\Debug\net5.0\Application.pdb
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\obj\Debug\net5.0\Application.dll
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\obj\Debug\net5.0\ref\Application.dll
+C:\Users\bruno\Source\Repos\Nova pasta\Backend\Phidelis\Application\obj\Debug\net5.0\Application.pdb
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\bin\Debug\net5.0\Application.deps.json
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\bin\Debug\net5.0\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\bin\Debug\net5.0\ref\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\bin\Debug\net5.0\Application.pdb
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\ref\Application.dll
+C:\Users\bruno\Source\Repos\Phidelis\Backend\Phidelis\Application\obj\Debug\net5.0\Application.pdb
