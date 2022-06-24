@@ -14,8 +14,8 @@ namespace Application.Services
     {
         private readonly PhidelisContext _context;
 
-        const string geradorNomeAPI = "https://gerador-nomes.herokuapp.com";
-        const string geradorCPFAPI = "https://2devs.com.br/v1/";
+        const string NAME_GENERATOR_API = "https://gerador-nomes.herokuapp.com";
+        const string CPF_GENERATOR_API = "https://2devs.com.br/v1/";
 
         public AlunosService(PhidelisContext context)
         {
@@ -99,50 +99,50 @@ namespace Application.Services
 
         public string AlunoValidate(Alunos model)
         {
-            string erros = "";
+            string errors = "";
 
             if (string.IsNullOrWhiteSpace(model.Cpf) || model.Cpf.Length != 11)
-                erros = "Insira um CPF válido. ";
+                errors = "Insira um CPF válido. ";
             if (string.IsNullOrWhiteSpace(model.Matricula))
-                erros += "Insira a matrícula. ";
+                errors += "Insira a matrícula. ";
             if (string.IsNullOrWhiteSpace(model.Nome))
-                erros += "Insira um nome.";
+                errors += "Insira um nome.";
 
-            return erros;
+            return errors;
         }
 
-        public async Task<List<Alunos>> GenerateAluno(int quantidade)
+        public async Task<List<Alunos>> GenerateAluno(int quantity)
         {
             // gera lista de nomes aleatórios
-            var geradorNomeClient = await RestService.For<IGeradorNomeService>(geradorNomeAPI).GetNamesAsync(quantidade);
+            var geradorNomeClient = await RestService.For<IGeradorNomeService>(NAME_GENERATOR_API).GetNamesAsync(quantity);
 
-            Random numAleatorio = new Random();
+            Random randomNum = new Random();
 
-            List<Alunos> alunos = new List<Alunos>();
+            List<Alunos> students = new List<Alunos>();
 
-            for (int i = 0; i < quantidade; i++)
+            for (int i = 0; i < quantity; i++)
             {
                 // gera um cpf aleatório
-                var geradorCPFClient = await RestService.For<IGeradorCPF>(geradorCPFAPI).GetCPFAsync();
+                var cpfGeneratorClient = await RestService.For<IGeradorCPF>(CPF_GENERATOR_API).GetCPFAsync();
 
                 // formata cpf para apenas números
-                var cpf = geradorCPFClient.Data.FirstOrDefault() != null ? geradorCPFClient.Data.FirstOrDefault() : "00000000000";
+                var cpf = cpfGeneratorClient.Data.FirstOrDefault() != null ? cpfGeneratorClient.Data.FirstOrDefault() : "00000000000";
                 cpf = cpf.Replace("-", "");
                 cpf = cpf.Replace(".", "");
 
                 // cria aluno
-                var aluno = new Alunos
+                var student = new Alunos
                 {
                     Id = 0,
                     Nome = geradorNomeClient[i],
                     Cpf = cpf,
-                    Matricula = numAleatorio.Next(1047483647, 2147483647).ToString() // gera matricula
+                    Matricula = randomNum.Next(1047483647, 2147483647).ToString() // gera matricula aleatória
                 };
 
-                alunos.Add(aluno);
+                students.Add(student);
             }
 
-            return alunos;
+            return students;
         }
     }
 }

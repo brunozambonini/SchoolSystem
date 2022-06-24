@@ -1,7 +1,6 @@
 using Application.Context;
 using Application.Services;
 using Application.Services.Interfaces;
-using DocumentFormat.OpenXml.EMMA;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -35,8 +34,6 @@ namespace Phidelis
 
             // Implementa services
             services.AddScoped<IAlunosService, AlunosService>();
-            //services.AddScoped<IGeradorNomeService, GeradorNomeService>();
-
 
             services.AddCors();
             services.AddControllers();
@@ -45,7 +42,6 @@ namespace Phidelis
             services.AddMvc();
 
             // Registra o gerador Swagger definindo docmentos Swagger
-            //services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" }));
             services.AddSwaggerGen(opt =>
             {
                 opt.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoAPI", Version = "v1" });
